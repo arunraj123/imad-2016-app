@@ -5,7 +5,7 @@ var path = require('path');
 var app = express();
 app.use(morgan('combined'));
 var content ={
-    title="ARUN ARTILCE";
+    title:"ARUN ARTILCE";
     heading: "love";
 }
 app.get('/', function (req, res) {
